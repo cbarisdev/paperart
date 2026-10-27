@@ -1,0 +1,36 @@
+# Local credentials and configuration
+wp-config.php
+.env
+.env.*
+
+# Only the reviewed public database export is included
+*.sql
+!/database/paperart.sql
+
+# Full-site backups, archives and logs
+*.wpress
+*.zip
+*.log
+/wp-content/ai1wm-backups/
+/wp-content/backups-dup-lite/
+/wp-content/upgrade/
+/wp-content/cache/
+
+# WordPress core, plugins and unused themes
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+/wp-content/themes/*
+!/wp-content/themes/grand-academy/
+
+# 3D experiments are outside this project package
+/wp-3d/
+/wp-content/uploads/spin360show/
+/wp-content/uploads/woo3dv/
+/wp-content/uploads/2021/06/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
